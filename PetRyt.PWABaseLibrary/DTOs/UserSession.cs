@@ -9,6 +9,7 @@ namespace PetRyt.PWABaseLibrary.DTOs
 		public string? UserFirstName { get; set; }
 		public string? UserLastName { get; set; }
 		public string? UserEmail { get; set; }
+		public string? Phone { get; set; }
 		public string? UserRoles { get; set; }
 		public long UserId { get; set; }
 		public DateTime AccessTokenExpiration { get; set; }

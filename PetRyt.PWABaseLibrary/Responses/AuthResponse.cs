@@ -30,6 +30,8 @@ namespace PetRyt.PWABaseLibrary.Responses
 		public string UserEmail { get; set; }
 		public string UserRoles { get; set; }
 		public DateTime AccessTokenExpiration { get; set; }
+        public object Data { get; set; }
 
-	}
+
+    }
 }

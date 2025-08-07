@@ -11,13 +11,6 @@ namespace PetRyt.PWABaseLibrary.DTOs
 	{
 		//[DataType(DataType.EmailAddress)]
 		//[EmailAddress]
-		[Display(Name = "User Name")]
-		[Required(ErrorMessage = "User Name is required")]
-		public string? UserName { get; set; }
-
-
-		[DataType(DataType.Password)]
-		[Required(ErrorMessage = "Password is required")]
-		public string? Password { get; set; }
+		
 	}
 }
