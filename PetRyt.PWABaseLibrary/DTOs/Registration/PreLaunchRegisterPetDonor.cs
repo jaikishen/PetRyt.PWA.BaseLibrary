@@ -21,6 +21,15 @@ namespace PetRyt.PWABaseLibrary.DTOs.Registration
         public string Email { get; set; } = "";
         public bool Agreement { get; set; } = false;
         public string UserType { get; set; } = "";
+        public string AddressLine1 { get; set; } = "";
+        public string Street { get; set; } = "";
+        public string Area { get; set; } = "";
+        public string City { get; set; } = "";
+        public string Country { get; set; } = "";
+        public string Pincode { get; set; } = "";
+        public string Landmark { get; set; } = "";
+        public decimal? Latitude { get; set; }
+        public decimal? Longitude { get; set; }
         public DateTime RegistrationDate { get; set; } = DateTime.UtcNow;
     }
 
