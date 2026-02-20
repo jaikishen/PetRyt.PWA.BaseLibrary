@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PetRyt.PWABaseLibrary.DTOs
 {
-    public class RegisterWithMobileRequest
+    public class RegisterUser
     {
         //[Required]
         public string UserName { get; set; }
